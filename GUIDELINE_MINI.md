@@ -22,6 +22,6 @@
 
 | Ảnh | Tình huống | Quyết định cuối | Lý do theo schema |
 | --- | --- | --- | --- |
-| `drive_...` | | | |
-| `drive_...` | | | |
-| `drive_...` | | | |
+| `drive_0012.jpg` |Xe bán tải (Pickup) có phần thùng chở hàng phía sau khá dài, thoạt nhìn dễ nhầm với xe tải nhẹ. |Gán lớp car (ID 0) |Theo schema bắt buộc của dự án, các dòng xe bán tải (pickup) dù chuyên chở hàng hóa nhẹ phía sau vẫn được quy định nằm trong nhóm car. |
+| `drive_0025.jpg` |Xe minibus 16 chỗ đang đỗ sát lề đường, có kích thước lớn hơn xe con nhưng nhỏ hơn xe buýt đô thị. |Gán lớp bus (ID 2) |Thuộc nhóm minibus chuyên chở khách theo định nghĩa của lớp bus, không phải xe van chở hàng hóa hay xe con gia đình. |
+| `drive_0041.jpg` |Xe van chở hàng cỡ nhỏ (như dạng van thùng kín đô thị) bị che khuất phần đầu xe, chỉ lộ phần thân và đuôi hộp. |Gán lớp van (ID 3) |Cấu trúc thân xe hình hộp (box-like) đặc trưng của dòng van chở hàng, phần nhìn thấy đủ để xác định không phải xe con sedan hay xe tải lớn (truck). |
